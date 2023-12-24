@@ -23,7 +23,7 @@
         compatible = "zmk,combos";
 
         QuestionMark {
-            bindings = <&kp LS(EQUAL)>;
+            bindings = <&kp PLUS>;
             key-positions = <41 34>;
         };
     };
