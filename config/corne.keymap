@@ -29,6 +29,11 @@
             bindings = <&kp BACKSLASH>;
             key-positions = <26 41>;
         };
+
+        cierre {
+            bindings = <&kp LA(F4)>;
+            key-positions = <38 3>;
+        };
     };
 
     keymap {
