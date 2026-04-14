@@ -68,7 +68,7 @@ layers:
   - '?'
   - _
   - \
-  - Sft+6
+  - {t: 'Sft+[', s: 'Sft+{'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -80,7 +80,7 @@ layers:
   - {t: 'AltGr+]', s: 'AltGr+}'}
   - $$mdi:apple-keyboard-control$$
   - AltGr+1
-  - {t: '`', s: '~'}
+  - {t: '[', s: '{'}
   - +
   - Sft+\
   - '@'
@@ -117,7 +117,7 @@ layers:
   - '?'
   - _
   - {t: \, s: '|'}
-  - '&'
+  - {t: 'Sft+[', s: 'Sft+{'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -129,7 +129,7 @@ layers:
   - {t: 'AltGr+]', s: 'AltGr+}'}
   - $$mdi:apple-keyboard-control$$
   - AltGr+1
-  - {t: '`', s: '~'}
+  - {t: '[', s: '{'}
   - +
   - {t: Sft+\, s: Sft+|}
   - '@'
@@ -137,13 +137,13 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: Sft+7, s: Sft+&}
   - {t: AltGr+`, s: AltGr+~}
+  - {t: Sft+8, s: Sft+*}
   - {t: Sft+9, s: Sft+(}
-  - {t: Sft+0, s: Sft+)}
   - {t: AltGr+', s: AltGr+"}
   - {t: AltGr+\, s: AltGr+|}
   - LEFT WIN
   - {t: NUMBER, type: held alternate}
-  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: SYMBOL, type: held}
   - $$mdi:apple-keyboard-option$$
