@@ -116,7 +116,7 @@ layers:
   - {t: '=', s: +}
   - '?'
   - _
-  - {t: \, s: '|'}
+  - \
   - {t: 'Sft+[', s: 'Sft+{'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
@@ -131,7 +131,7 @@ layers:
   - AltGr+1
   - {t: '[', s: '{'}
   - +
-  - {t: Sft+\, s: Sft+|}
+  - Sft+\
   - '@'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
