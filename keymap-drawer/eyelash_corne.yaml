@@ -41,8 +41,8 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
+  - {t: '-', s: _}
   - {t: '''', s: '"'}
-  - $$mdi:keyboard-esc$$
   - LGUI
   - NUMBER
   - $$mdi:apple-keyboard-option$$
@@ -191,10 +191,10 @@ layers:
   - RGB EFR
   - RGB OFF
   - LEFT WIN
-  - NUMBER
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - SYMBOL
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
 combos:
 - p: [1, 15, 29]
