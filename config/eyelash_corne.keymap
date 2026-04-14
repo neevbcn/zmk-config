@@ -79,10 +79,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&kp ESCAPE  &kp N1            &kp N2        &kp N3          &kp N4             &kp N5                                       &mmv MOVE_UP                     &kp N6            &kp N7         &kp N8            &kp N9            &kp N0                &kp BSPC
-&trans      &kp EQUAL         &kp QUESTION  &kp UNDERSCORE  &kp BACKSLASH      &kp AMPERSAND                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp UP_ARROW      &kp DOWN       &kp LEFT_ARROW    &kp RIGHT         &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)
-&trans      &kp RA(NUMBER_1)  &kp GRAVE     &kp PLUS        &kp LS(BACKSLASH)  &kp AT_SIGN    &kp C_MUTE                    &mmv MOVE_DOWN                   &kp LS(NUMBER_7)  &kp RA(GRAVE)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &kp RA(SQT)           &kp RA(BACKSLASH)
-                                            &trans          &trans             &trans                                                                        &trans            &trans         &trans
+&kp ESCAPE        &kp N1            &kp N2        &kp N3          &kp N4             &kp N5                                       &mmv MOVE_UP                     &kp N6            &kp N7         &kp N8            &kp N9            &kp N0                &kp BSPC
+&kp LEFT_SHIFT    &kp EQUAL         &kp QUESTION  &kp UNDERSCORE  &kp BACKSLASH      &kp AMPERSAND                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp UP_ARROW      &kp DOWN       &kp LEFT_ARROW    &kp RIGHT         &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)
+&kp LEFT_CONTROL  &kp RA(NUMBER_1)  &kp GRAVE     &kp PLUS        &kp LS(BACKSLASH)  &kp AT_SIGN    &kp C_MUTE                    &mmv MOVE_DOWN                   &kp LS(NUMBER_7)  &kp RA(GRAVE)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &kp RA(SQT)           &kp RA(BACKSLASH)
+                                                  &trans          &trans             &trans                                                                        &trans            &trans         &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -91,10 +91,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                    &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
+&kp ESC           &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&kp LEFT_SHIFT    &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&kp LEFT_CONTROL  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+                                              &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
