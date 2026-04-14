@@ -191,10 +191,10 @@ layers:
   - RGB EFR
   - RGB OFF
   - LEFT WIN
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:apple-keyboard-option$$
 combos:
 - p: [1, 15, 29]
