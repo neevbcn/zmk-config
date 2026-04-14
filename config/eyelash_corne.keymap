@@ -90,10 +90,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&kp ESC           &kp EXCL          &kp AT            &kp HASH        &kp DLLR           &kp PRCNT                                       &mmv MOVE_UP                     &kp CARET     &kp AMPS       &kp ASTRK   &kp LPAR    &kp RPAR              &kp BSPC
-&kp LEFT_SHIFT    &kp EQUAL         &kp QUESTION      &kp UNDERSCORE  &kp BACKSLASH      &kp LS(LEFT_BRACKET)            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp UP_ARROW  &kp DOWN       &kp LEFT    &kp RIGHT   &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)
-&kp LEFT_CONTROL  &kp RA(NUMBER_1)  &kp LEFT_BRACKET  &kp PLUS        &kp LS(BACKSLASH)  &kp AT_SIGN           &trans                    &mmv MOVE_DOWN                   &kp LS(N7)    &kp RA(GRAVE)  &kp LS(N8)  &kp LS(N9)  &kp RA(SQT)           &kp RA(BACKSLASH)
-                                                      &kp LEFT_WIN    &mo 1              &kp LEFT_ALT                                                                     &kp RET       &mo 2          &kp RALT
+&kp ESC           &kp EXCL          &kp AT            &kp HASH        &kp DLLR                  &kp PRCNT                                       &mmv MOVE_UP                     &kp CARET     &kp AMPS       &kp ASTRK   &kp LPAR    &kp RPAR              &kp BSPC
+&kp LEFT_SHIFT    &kp EQUAL         &kp QUESTION      &kp UNDERSCORE  &kp NON_US_BACKSLASH      &kp LS(LEFT_BRACKET)            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp UP_ARROW  &kp DOWN       &kp LEFT    &kp RIGHT   &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)
+&kp LEFT_CONTROL  &kp RA(NUMBER_1)  &kp LEFT_BRACKET  &kp PLUS        &kp LS(NON_US_BACKSLASH)  &kp AT_SIGN           &trans                    &mmv MOVE_DOWN                   &kp LS(N7)    &kp RA(GRAVE)  &kp LS(N8)  &kp LS(N9)  &kp RA(SQT)           &kp RA(BACKSLASH)
+                                                      &kp LEFT_WIN    &mo 1                     &kp LEFT_ALT                                                                     &kp RET       &mo 2          &kp RALT
             >;
 
             sensor-bindings = <&scroll_encoder>;
