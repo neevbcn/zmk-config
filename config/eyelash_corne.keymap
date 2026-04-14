@@ -78,10 +78,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&kp ESCAPE        &kp N1            &kp N2        &kp N3          &kp N4             &kp N5                                       &mmv MOVE_UP                     &kp N6            &kp N7         &kp N8            &kp N9            &kp N0                &kp BSPC
-&kp LEFT_SHIFT    &kp EQUAL         &kp QUESTION  &kp UNDERSCORE  &kp BACKSLASH      &kp AMPERSAND                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp UP_ARROW      &kp DOWN       &kp LEFT_ARROW    &kp RIGHT         &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)
-&kp LEFT_CONTROL  &kp RA(NUMBER_1)  &kp GRAVE     &kp PLUS        &kp LS(BACKSLASH)  &kp AT_SIGN    &kp C_MUTE                    &mmv MOVE_DOWN                   &kp LS(NUMBER_7)  &kp RA(GRAVE)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &kp RA(SQT)           &kp RA(BACKSLASH)
-                                                  &kp LEFT_WIN    &mo 1              &kp LEFT_ALT                                                                  &kp SPACE         &mo 2          &kp RALT
+&kp ESCAPE        &kp N1            &kp N2        &kp N3          &kp N4                    &kp N5                                          &mmv MOVE_UP                     &kp N6            &kp N7         &kp N8          &kp N9      &kp N0                &kp BSPC
+&kp LEFT_SHIFT    &kp EQUAL         &kp QUESTION  &kp UNDERSCORE  &kp NON_US_BACKSLASH      &kp LS(NUMBER_6)                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp UP_ARROW      &kp DOWN       &kp LEFT_ARROW  &kp RIGHT   &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)
+&kp LEFT_CONTROL  &kp RA(NUMBER_1)  &kp GRAVE     &kp PLUS        &kp LS(NON_US_BACKSLASH)  &kp AT_SIGN       &kp C_MUTE                    &mmv MOVE_DOWN                   &kp LS(NUMBER_7)  &kp RA(GRAVE)  &kp LS(N8)      &kp LS(N9)  &kp RA(SQT)           &kp RA(BACKSLASH)
+                                                  &kp LEFT_WIN    &mo 1                     &kp LEFT_ALT                                                                     &kp SPACE         &mo 2          &kp RALT
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -114,6 +114,7 @@
 
     conditional_layers {
         compatible = "zmk,conditional-layers";
+
         tri_layer {
             if-layers = <1 2>;
             then-layer = <3>;
