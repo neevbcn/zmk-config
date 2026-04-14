@@ -67,8 +67,8 @@ layers:
   - {t: '=', s: +}
   - '?'
   - _
-  - {t: \, s: '|'}
-  - '&'
+  - \
+  - Sft+6
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -82,14 +82,14 @@ layers:
   - AltGr+1
   - {t: '`', s: '~'}
   - +
-  - {t: Sft+\, s: Sft+|}
+  - Sft+\
   - '@'
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - Sft+7
   - {t: AltGr+`, s: AltGr+~}
-  - Sft+9
-  - Sft+0
+  - {t: Sft+8, s: Sft+*}
+  - {t: Sft+9, s: Sft+(}
   - {t: AltGr+', s: AltGr+"}
   - {t: AltGr+\, s: AltGr+|}
   - LEFT WIN
