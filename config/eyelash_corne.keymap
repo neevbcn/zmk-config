@@ -113,19 +113,19 @@
 
         layer_4 {
             bindings = <
-&kp LA(TAB)  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans    &trans       &trans
-&trans       &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &kp HASH  &kp PIPE     &trans
-&trans       &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans    &kp AT_SIGN  &kp LEFT_BRACKET
-                             &trans  &trans  &trans                                    &trans  &trans  &trans
+&kp LA(TAB)  &trans  &trans  &trans  &trans  &trans                    &trans          &trans     &trans     &trans     &trans    &trans       &trans
+&trans       &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans     &trans     &trans     &trans    &kp PIPE     &trans
+&trans       &trans  &trans  &trans  &trans  &trans  &trans            &trans          &kp GRAVE  &kp TILDE  &kp EQUAL  &kp HASH  &kp AT_SIGN  &kp LEFT_BRACKET
+                             &trans  &trans  &trans                                    &trans     &trans     &trans
             >;
         };
 
         layer_5 {
             bindings = <
-&kp LA(TAB)  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans    &trans       &trans
-&trans       &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &kp HASH  &kp PIPE     &trans
-&trans       &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans    &kp AT_SIGN  &kp LEFT_BRACKET
-                             &trans  &trans  &trans                                    &trans  &trans  &trans
+&kp LA(TAB)  &trans  &trans  &trans  &trans  &trans                    &trans          &trans     &trans     &trans     &trans    &trans       &trans
+&trans       &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans     &trans     &trans     &trans    &kp PIPE     &trans
+&trans       &trans  &trans  &trans  &trans  &trans  &trans            &trans          &kp GRAVE  &kp TILDE  &kp EQUAL  &kp HASH  &kp AT_SIGN  &kp LEFT_BRACKET
+                             &trans  &trans  &trans                                    &trans     &trans     &trans
             >;
         };
     };
