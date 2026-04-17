@@ -113,20 +113,24 @@
 
         layer_4 {
             bindings = <
-&kp LA(TAB)  &trans  &trans  &trans  &trans  &trans                    &trans          &trans     &trans     &trans     &trans    &trans       &trans
-&trans       &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans     &trans     &trans     &trans    &kp PIPE     &trans
-&trans       &trans  &trans  &trans  &trans  &trans  &trans            &trans          &kp GRAVE  &kp TILDE  &kp EQUAL  &kp HASH  &kp AT_SIGN  &kp LEFT_BRACKET
-                             &trans  &trans  &trans                                    &trans     &trans     &trans
+&kp LA(TAB)  &trans  &trans  &kp RA(E)  &trans                    &trans                                      &trans          &trans     &trans          &trans        &trans            &trans       &trans
+&trans       &trans  &trans  &trans     &kp NON_US_BACKSLASH      &kp LS(LEFT_BRACKET)                &trans  &trans  &trans  &kp PLUS   &kp UNDERSCORE  &kp QUESTION  &kp RA(NUMBER_1)  &kp PIPE     &trans
+&trans       &trans  &trans  &trans     &kp LS(NON_US_BACKSLASH)  &kp RA(NUMBER_4)      &kp C_MUTE            &trans          &kp GRAVE  &kp TILDE       &kp EQUAL     &kp HASH          &kp AT_SIGN  &kp LEFT_BRACKET
+                             &trans     &trans                    &trans                                                      &trans     &trans          &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_NEXT C_PREVIOUS>;
         };
 
         layer_5 {
             bindings = <
-&kp LA(TAB)  &trans  &trans  &trans  &trans  &trans                    &trans          &trans     &trans     &trans     &trans    &trans       &trans
-&trans       &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans     &trans     &trans     &trans    &kp PIPE     &trans
-&trans       &trans  &trans  &trans  &trans  &trans  &trans            &trans          &kp GRAVE  &kp TILDE  &kp EQUAL  &kp HASH  &kp AT_SIGN  &kp LEFT_BRACKET
-                             &trans  &trans  &trans                                    &trans     &trans     &trans
+&kp LA(TAB)  &trans  &trans  &kp RA(E)  &trans                    &trans                                      &trans          &trans     &trans          &trans        &trans            &trans       &trans
+&trans       &trans  &trans  &trans     &kp NON_US_BACKSLASH      &kp LS(LEFT_BRACKET)                &trans  &trans  &trans  &kp PLUS   &kp UNDERSCORE  &kp QUESTION  &kp RA(NUMBER_1)  &kp PIPE     &trans
+&trans       &trans  &trans  &trans     &kp LS(NON_US_BACKSLASH)  &kp RA(NUMBER_4)      &kp C_MUTE            &trans          &kp GRAVE  &kp TILDE       &kp EQUAL     &kp HASH          &kp AT_SIGN  &kp LEFT_BRACKET
+                             &trans     &trans                    &trans                                                      &trans     &trans          &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_NEXT C_PREVIOUS>;
         };
     };
 
