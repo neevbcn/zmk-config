@@ -62,11 +62,11 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '=', s: +}
-  - '?'
-  - _
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - \
   - {t: 'Sft+[', s: 'Sft+{'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -78,12 +78,12 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: 'AltGr+[', s: 'AltGr+{'}
   - {t: 'AltGr+]', s: 'AltGr+}'}
-  - $$mdi:apple-keyboard-control$$
-  - AltGr+1
-  - {t: '[', s: '{'}
-  - +
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Sft+\
-  - '@'
+  - AltGr+4
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - Sft+7
@@ -92,11 +92,11 @@ layers:
   - {t: Sft+9, s: Sft+(}
   - {t: AltGr+', s: AltGr+"}
   - {t: AltGr+\, s: AltGr+|}
-  - LEFT WIN
-  - {t: NUMBER, type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
-  - SYMBOL
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   SYMBOL:
   - $$mdi:keyboard-esc$$
@@ -111,11 +111,11 @@ layers:
   - '*'
   - (
   - )
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '=', s: +}
-  - '?'
-  - _
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - \
   - {t: 'Sft+[', s: 'Sft+{'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -127,12 +127,12 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: 'AltGr+[', s: 'AltGr+{'}
   - {t: 'AltGr+]', s: 'AltGr+}'}
-  - $$mdi:apple-keyboard-control$$
-  - AltGr+1
-  - {t: '[', s: '{'}
-  - +
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Sft+\
-  - '@'
+  - AltGr+4
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: Sft+7, s: Sft+&}
@@ -141,11 +141,11 @@ layers:
   - {t: Sft+9, s: Sft+(}
   - {t: AltGr+', s: AltGr+"}
   - {t: AltGr+\, s: AltGr+|}
-  - LEFT WIN
-  - {t: NUMBER, type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: SYMBOL, type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:apple-keyboard-option$$
   Fn:
   - F1
@@ -178,10 +178,10 @@ layers:
   - RGB ON
   - $$mdi:backspace-reverse-outline$$
   - Alt+F4
-  - '#'
-  - '|'
-  - {t: '`', s: '~'}
-  - '~'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - Ctl+Alt+$$mdi:backspace-reverse-outline$$
@@ -190,10 +190,10 @@ layers:
   - RGB BRD
   - RGB EFR
   - RGB OFF
-  - LEFT WIN
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:apple-keyboard-option$$
   '4':
