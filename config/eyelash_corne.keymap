@@ -90,10 +90,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&kp ESC  &kp EXCL  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp DLLR                  &kp PRCNT                                         &trans          &kp CARET     &kp LS(EQUAL)  &kp SLASH   &kp RIGHT_BRACKET  &kp RPAR              &trans
-&trans   &trans    &trans            &kp RA(E)         &kp NON_US_BACKSLASH      &kp LS(LEFT_BRACKET)                      &trans  &trans  &trans  &kp UP_ARROW  &kp DOWN       &kp LEFT    &kp RIGHT          &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)
-&trans   &trans    &trans            &trans            &kp LS(NON_US_BACKSLASH)  &kp RA(NUMBER_4)      &kp C_PLAY_PAUSE            &trans          &kp LS(N7)    &kp RA(GRAVE)  &kp LS(N8)  &kp LS(N9)         &kp RA(SQT)           &kp RA(BACKSLASH)
-                                     &trans            &trans                    &trans                                                            &trans        &trans         &trans
+&kp ESC  &kp EXCLAMATION  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp DOLLAR                &kp PRCNT                                         &trans          &kp CARET     &kp RIGHT_BRACKET  &kp SLASH   &kp RIGHT_BRACE  &kp RPAR              &trans
+&trans   &trans           &trans            &kp RA(E)         &kp NON_US_BACKSLASH      &kp LS(LEFT_BRACKET)                      &trans  &trans  &trans  &kp UP_ARROW  &kp DOWN           &kp LEFT    &kp RIGHT        &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)
+&trans   &trans           &trans            &trans            &kp LS(NON_US_BACKSLASH)  &kp RA(NUMBER_4)      &kp C_PLAY_PAUSE            &trans          &kp LS(N7)    &kp RA(GRAVE)      &kp LS(N8)  &kp LS(N9)       &kp RA(SQT)           &kp RA(BACKSLASH)
+                                            &trans            &trans                    &trans                                                            &trans        &trans             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_NEXT C_PREVIOUS>;
@@ -113,10 +113,10 @@
 
         layer_4 {
             bindings = <
-&kp LA(TAB)  &kp EXCLAMATION  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp DOLLAR                &kp PERCENT                                     &kp UP_ARROW             &kp CARET  &kp LS(EQUAL)   &kp SLASH     &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &trans
-&trans       &trans           &trans            &kp RA(E)         &kp NON_US_BACKSLASH      &kp LS(LEFT_BRACKET)            &kp LEFT_ARROW  &mkp RCLK     &kp RIGHT  &kp PLUS   &kp UNDERSCORE  &kp QUESTION  &kp RA(NUMBER_1)   &kp PIPE               &trans
-&trans       &trans           &trans            &trans            &kp LS(NON_US_BACKSLASH)  &kp RA(NUMBER_4)      &trans                    &kp DOWN                 &kp GRAVE  &kp TILDE       &kp EQUAL     &kp HASH           &kp AT_SIGN            &kp LEFT_BRACKET
-                                                &trans            &trans                    &trans                                                                   &trans     &trans          &trans
+&trans    &kp EXCLAMATION  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp DOLLAR                &kp PERCENT                                     &kp UP_ARROW             &kp CARET  &kp RIGHT_BRACKET  &kp SLASH     &kp RIGHT_BRACE   &kp RIGHT_PARENTHESIS  &trans
+&trans    &trans           &trans            &kp RA(E)         &kp NON_US_BACKSLASH      &kp LS(LEFT_BRACKET)            &kp LEFT_ARROW  &mkp RCLK     &kp RIGHT  &kp PLUS   &kp UNDERSCORE     &kp QUESTION  &kp RA(NUMBER_1)  &kp PIPE               &trans
+&kp LALT  &trans           &trans            &trans            &kp LS(NON_US_BACKSLASH)  &kp RA(NUMBER_4)      &trans                    &kp DOWN                 &kp GRAVE  &kp TILDE          &kp EQUAL     &kp HASH          &kp AT_SIGN            &kp LEFT_BRACKET
+                                             &trans            &trans                    &trans                                                                   &trans     &trans             &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -124,10 +124,10 @@
 
         layer_5 {
             bindings = <
-&kp LA(TAB)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4              &kp N5                                  &trans          &kp NUMBER_6  &kp N7          &kp N8        &kp N9            &kp N0       &trans
-&trans       &trans        &trans        &kp RA(E)     &kp NON_US_BACKSLASH      &kp LS(LEFT_BRACKET)            &trans  &trans  &trans  &kp PLUS      &kp UNDERSCORE  &kp QUESTION  &kp RA(NUMBER_1)  &kp PIPE     &trans
-&trans       &trans        &trans        &trans        &kp LS(NON_US_BACKSLASH)  &kp RA(NUMBER_4)      &trans            &trans          &kp GRAVE     &kp TILDE       &kp EQUAL     &kp HASH          &kp AT_SIGN  &kp LEFT_BRACKET
-                                         &trans        &trans                    &trans                                                  &trans        &trans          &trans
+&trans    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4              &kp N5                                  &trans          &kp NUMBER_6  &kp N7          &kp N8        &kp N9            &kp N0       &trans
+&trans    &trans        &trans        &kp RA(E)     &kp NON_US_BACKSLASH      &kp LS(LEFT_BRACKET)            &trans  &trans  &trans  &kp PLUS      &kp UNDERSCORE  &kp QUESTION  &kp RA(NUMBER_1)  &kp PIPE     &trans
+&kp LALT  &trans        &trans        &trans        &kp LS(NON_US_BACKSLASH)  &kp RA(NUMBER_4)      &trans            &trans          &kp GRAVE     &kp TILDE       &kp EQUAL     &kp HASH          &kp AT_SIGN  &kp LEFT_BRACKET
+                                      &trans        &trans                    &trans                                                  &trans        &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
