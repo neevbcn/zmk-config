@@ -223,7 +223,7 @@ layers:
   - _
   - '?'
   - AltGr+1
-  - NUBS
+  - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
