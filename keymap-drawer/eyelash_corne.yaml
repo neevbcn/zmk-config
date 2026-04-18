@@ -107,9 +107,9 @@ layers:
   - '%'
   - {t: '$$mdi:transfer$$', type: trans}
   - ^
-  - {t: Sft+=, s: Sft++}
-  - {t: /, s: '?'}
   - {t: ']', s: '}'}
+  - {t: /, s: '?'}
+  - '}'
   - )
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -197,7 +197,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   '4':
-  - Alt+$$mdi:keyboard-tab$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - AltGr+2
   - AltGr+3
@@ -205,9 +205,9 @@ layers:
   - '%'
   - $$mdi:arrow-up-bold$$
   - ^
-  - {t: Sft+=, s: Sft++}
-  - {t: /, s: '?'}
   - {t: ']', s: '}'}
+  - {t: /, s: '?'}
+  - '}'
   - )
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -225,7 +225,7 @@ layers:
   - AltGr+1
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -246,7 +246,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '5':
-  - Alt+$$mdi:keyboard-tab$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - '1'
   - '2'
   - '3'
@@ -274,7 +274,7 @@ layers:
   - AltGr+1
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
