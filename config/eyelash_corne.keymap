@@ -114,7 +114,7 @@
         layer_4 {
             bindings = <
 &trans    &kp EXCLAMATION  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp DOLLAR                &kp PERCENT                                     &kp UP_ARROW             &kp CARET  &kp RIGHT_BRACKET  &kp SLASH     &kp RIGHT_BRACE   &kp RIGHT_PARENTHESIS  &trans
-&trans    &trans           &trans            &kp RA(E)         &kp NON_US_BACKSLASH      &kp LS(LEFT_BRACKET)            &kp LEFT_ARROW  &mkp RCLK     &kp RIGHT  &kp PLUS   &kp UNDERSCORE     &kp QUESTION  &kp RA(NUMBER_1)  &kp NON_US_BACKSLASH   &trans
+&trans    &trans           &trans            &kp RA(E)         &kp NON_US_BACKSLASH      &kp LS(LEFT_BRACKET)            &kp LEFT_ARROW  &mkp RCLK     &kp RIGHT  &kp PLUS   &kp UNDERSCORE     &kp QUESTION  &kp RA(NUMBER_1)  &kp NUBS               &trans
 &kp LALT  &trans           &trans            &trans            &kp LS(NON_US_BACKSLASH)  &kp RA(NUMBER_4)      &trans                    &kp DOWN                 &kp GRAVE  &kp TILDE          &kp EQUAL     &kp HASH          &kp AT_SIGN            &kp LEFT_BRACKET
                                              &trans            &trans                    &trans                                                                   &trans     &trans             &trans
             >;
